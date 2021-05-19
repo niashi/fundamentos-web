@@ -15,6 +15,24 @@ Estilos da página index.html
 
 #menu li {
     display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: blue;
+}
+
+#menu li a:hover {
+    color: grey;
+}
+
+.p-30 {
+
+}
+
+.br-50 {
+    
 }
 
 /*
