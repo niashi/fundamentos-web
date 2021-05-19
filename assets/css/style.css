@@ -35,6 +35,18 @@ Estilos da página index.html
 
 }
 
+.tm {
+    width: 35px;
+}
+
 /*
 Estilos da página contato.html
 */
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
