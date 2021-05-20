@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+* {
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Mono', monospace;
+    background-color: #f1f1f1;
+}
+
 /*
 Estilos da página index.html
 */
@@ -9,7 +20,7 @@ Estilos da página index.html
 .container {
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 
@@ -28,7 +39,7 @@ Estilos da página index.html
 }
 
 .p-30 {
-
+    padding: 0px;
 }
 
 .br-50 {
@@ -39,14 +50,21 @@ Estilos da página index.html
     width: 35px;
 }
 
+#footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /*
 Estilos da página contato.html
 */
 
 .ml-50 {
-    margin-left: 50px;
+    margin-left: 250px;
 }
 
 .mb-50 {
-    margin-bottom: 50px;
+    margin-bottom: 350px;
 }
